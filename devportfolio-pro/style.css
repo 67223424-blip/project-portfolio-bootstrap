@@ -1,0 +1,85 @@
+* {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+textarea {
+  resize: none;
+}
+
+nav ul li a:hover {
+  color: #4557ff !important;
+}
+
+nav ul li a.active {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 2px;
+}
+
+body {
+  margin: 0;
+}
+
+.hero-section {
+  height: calc(100vh - 113px);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-section img {
+  height: auto;
+  max-height: 65vh;
+  width: auto;
+  object-fit: contain;
+  border-radius: 20rem;
+}
+
+.hero-section .badge {
+  background-color: transparent !important;
+  color: #000000 !important;
+  font-size: 0.85rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  border: #000000 1px solid !important;
+}
+
+.hero-section .btn-dark {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 30rem;
+}
+
+.project-detail-view {
+    height: calc(100vh - 113px);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+
+.project-section {
+  padding-bottom: 3rem;
+  min-height: calc(100vh - 113px);
+}
+
+.custom-card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 4.5em;
+}
+
+.skill {
+  background-color: transparent !important;
+  color: #000000 !important;
+  font-size: 0.85rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  border: #000000 1px solid !important;
+}
