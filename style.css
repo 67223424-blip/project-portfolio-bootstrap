@@ -22,7 +22,7 @@ body {
 }
 
 .hero-section {
-  height: calc(100vh - 113px);
+  min-height: calc(100vh - 113px);
   display: flex;
   align-items: center;
   overflow: hidden;
